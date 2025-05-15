@@ -1,0 +1,40 @@
+---ZONE DE INTERES
+1.x, y, w, h = 375, 625, 175, 175
+2.x, y, w, h = 700, 300, 250, 250
+3.x, y, w, h = 1300, 250, 250, 250
+4.x, y, w, h = 1200, 900, 250, 250
+5.x, y, w, h = 1250, 2100, 225, 225
+6.x, y, w, h = 600, 2000, 250, 250
+7.x, y, w, h = 350, 2000, 150, 150
+
+8. x, y, w, h = 1700, 250, 350, 350
+9. x, y, w, h = 2400, 400, 150, 150
+10.x, y, w, h = 2700, 600, 200, 200
+11.x, y, w, h = 1700, 1150, 200, 200
+12.x, y, w, h = 1700, 2100, 350, 350
+13.x, y, w, h = 2450, 2050, 150, 150
+14.x, y, w, h = 2800, 2050, 150, 150
+
+
+---Calibrare culori:
+lower_green=np.array([40, 80, 60])
+upper_green=np.array([85, 255, 255])
+
+lower_red1=np.array([0, 80, 60])
+upper_red1=np.array([5, 255, 255])
+lower_red2=np.array([175, 80, 60])
+upper_red2=np.array([180, 255, 255])
+
+lower_white= np.array([0, 0, 170])
+upper_white= np.array([180, 50, 255])
+
+lower_yellow = np.array([25, 60, 60])
+upper_yellow = np.array([40, 255, 255])
+
+lower_orange= np.array([8, 80, 80])
+upper_orange= np.array([20, 255, 255])
+
+lower_blue=np.array([90, 80, 80])
+upper_blue=np.array([130, 255, 255])
+
+
