@@ -178,7 +178,7 @@ def main():
 
     configurare_completa=completeaza_culoare_lipsa(configurare)
 
-    print(f"\n🔠 Configurare completă: {configurare_completa}")
+    print(f"\n Configurare completa: {configurare_completa}")
     
     #salvare fisier text
     with open("/home/pit77olt/Desktop/Rubiks/Cod/Initial_config_reader/initial_config.txt", "w") as f:
