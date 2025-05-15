@@ -5,7 +5,7 @@ import time
 import os
 import RPi.GPIO as GPIO
 
-# === Setup Motoare (exact cum ai făcut tu) ===
+# === Setup Motoare ===
 
 EN_DOWN = 18   # WHITE
 EN_TOP = 23    # YELLOW
@@ -92,7 +92,7 @@ def captureaza_poza(nume_fisier):
     subprocess.run(["libcamera-still", "-o", nume_fisier, "-n", "-t", "1000"])
     time.sleep(1)  # Asigurăm salvarea completă
 
-# === Planul de mișcări ===
+# === Planul de miscari===
 
 
 miscari_intre_poze = [
